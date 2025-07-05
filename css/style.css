@@ -341,7 +341,7 @@ img {
 }
 
 .wrapheder.HomePage0 .headerAnimate .bg-light {
-  background-color: #00000031 !important;
+  background-color: #00000054 !important;
 }
 @keyframes slideUp {
   0% {
@@ -446,7 +446,7 @@ img {
 }
 #ca1.owl-carousel .item1 {
   background: linear-gradient(to right,#0000009c 40%, #00000028) 0 0 / cover,
-    url("../image/Banner1.webp") center/cover no-repeat;
+    url("../image/Banner3.webp") center/cover no-repeat;
 }
 #ca1.owl-carousel .item2 {
   background: linear-gradient(to right,#0000009c 40%, #00000028) 0 0 / cover,
@@ -454,7 +454,7 @@ img {
 }
 #ca1.owl-carousel .item3 {
   background: linear-gradient(to right,#0000009c 40%, #00000028) 0 0 / cover,
-    url("../image/Banner3.webp") center/cover no-repeat;
+    url("../image/Banner1.webp") center/cover no-repeat;
 }
 
 .bannertext1 {
@@ -729,6 +729,7 @@ img {
   align-items: center;
   cursor: pointer;
   position: relative;
+  text-transform: capitalize;
   transition: all 0.3s;
 }
 
@@ -1084,3 +1085,107 @@ row-gap: 14px;
 }
 
 /* testimonials Section end */
+
+
+.NewBanner{
+  padding: 188.25px  0  120px;
+}
+
+.NewBanner .display-2{
+  margin-bottom: 0;
+}
+.NewBanner.aboutPage0{
+  background: linear-gradient(135deg, #2b00ff73 0%, #a10dfd7a 50%, #ff0a8d81 100%) 0 0 / cover, url('../image/AboutBanner.webp') center / cover no-repeat;
+}
+.NewBanner.contactPage0{
+  background: linear-gradient(135deg, #2b00ff73 0%, #a10dfd7a 50%, #ff0a8d81 100%) 0 0 / cover, url('../image/ContactBanner.webp') center / cover no-repeat;
+}
+
+/* About Us Section start */
+.aboutUsSection {
+  background: url('../image/AboutSectionBack.webp') center/cover no-repeat;
+  isolation: isolate;
+  border-top: 20px solid var(--sectionOverlay);
+  border-bottom: 20px solid var(--sectionOverlay);
+}
+
+.invisibleImageBox {
+  min-height: 450px;
+}
+/* About Us Section end */
+
+.visionAndValues .WhyChooseCards p{
+  font-size: 1rem;
+}
+.visionAndValues .container>.row{
+  row-gap: 30px;
+  align-items: center;
+}
+
+/* FOUNDER SECTION start */
+.founderSection .container>.row{
+row-gap: 30px;
+}
+.founderSection .textPart{
+  margin-right: -80px;
+  z-index: 1;
+}
+/* FOUNDER SECTION end */
+
+textarea.form-control{
+  resize: none;
+}
+.contactSection .gradientBox{
+  isolation: isolate;
+}
+
+.contactSection  .modal-header {
+  justify-content: center;
+  position: relative;
+}
+.contactSection  .modal-header .btn-close {
+  margin: 0 !important;
+  position: absolute;
+  right: 14px;
+  top: 14px;
+}
+
+
+.options {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.option {
+  border: none;
+  background: 0 0;
+  cursor: pointer;
+}
+.portfolio-item,
+.spotlight {
+  border: 2px solid var(--lightPink);
+}
+.option img {
+  width: 50px;
+  height: 50px;
+}
+.modal-title{
+  color: var(--darkBg);
+  text-align: center;
+}
+
+.ulSplit{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.ulSplit .tagName{
+  font-size: 18px;
+  font-weight: 600;
+}
+.ulSplit li{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+

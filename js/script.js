@@ -103,7 +103,7 @@ function loadHeaderFooter(callback) {
                   <i class="fa-solid fa-circle-chevron-right"></i>Home </a>
                 </li>
                 <li>
-                  <a class="footerLinks" href="#">
+                  <a class="footerLinks" href="aboutUs.html">
                   <i class="fa-solid fa-circle-chevron-right"></i>About Us</a>
                   </li>
                 <li>
@@ -119,7 +119,7 @@ function loadHeaderFooter(callback) {
                     <i class="fa-solid fa-circle-chevron-right"></i>link</a>
                 </li>
                 <li>
-                <a class="footerLinks" href="#">
+                <a class="footerLinks" href="contact.html">
                     <i class="fa-solid fa-circle-chevron-right"></i>Contact</a>
                     </li>
               </ul>
