@@ -270,6 +270,14 @@ margin-right: auto;
 .spanStyle {
     margin-bottom: 0;
 }
+
+.mapSection iframe{
+  height: 500px;
+}
+
+.WhyChoose.EventPage{
+padding-top: 118.25px;
+}
 }
 
 @media (max-width: 575.98px) {
@@ -296,6 +304,12 @@ width: 100%;
 max-width: 100%;
 }
 
+ .grid-sizer,.grid-item{
+    width: 100%;                                                                              ;
+  }
+  .gutter-sizer { 
+    width: 0;
+  }
 
 }
 

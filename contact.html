@@ -92,63 +92,105 @@
             <textarea class="form-control" id="MessageBox" rows="4" required=""></textarea>
             <div class="invalid-feedback"> Please enter a message in the textarea. </div>
           </div>
-
-            <!-- Modal Launcher for Mobile -->
-            <div class="col-12 gradientBox">
-              <button type="button" class="Gradientbutton mx-auto d-table d-md-none" data-bs-toggle="modal" data-bs-target="#whatsappButton">
-                Choose WhatsApp 
-                <span class="gradient-container">
-                  <span class="gradient"></span>
-                </span>
-             </button>
-            </div>
-          
-            <!-- WhatsApp Modal -->
-            <div class="modal fade" id="whatsappButton" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title text" id="exampleModalLabel">Select WhatsApp Type</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                  </div>
-                  <div class="modal-body text-center">
-                    <div class="options">
-                      <button id="whatsappStandard" class="btn option">
-                        <img src="image/whatsapp-icon.png" alt="WhatsApp">        
-                      </button>
-                      <button id="whatsappBusiness" class="btn option">
-                        <img src="image/whatsapp-business-icon.png" alt="WhatsApp Business">        
-                      </button>
-                    </div>
+          <!-- Modal Launcher for Mobile -->
+          <div class="col-12 gradientBox">
+            <button type="button" class="Gradientbutton mx-auto d-table d-md-none" data-bs-toggle="modal" data-bs-target="#whatsappButton"> Choose WhatsApp <span class="gradient-container">
+                <span class="gradient"></span>
+              </span>
+            </button>
+          </div>
+          <!-- WhatsApp Modal -->
+          <div class="modal fade" id="whatsappButton" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title text" id="exampleModalLabel">Select WhatsApp Type</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                  <div class="options">
+                    <button id="whatsappStandard" class="btn option">
+                      <img src="image/whatsapp-icon.png" alt="WhatsApp">
+                    </button>
+                    <button id="whatsappBusiness" class="btn option">
+                      <img src="image/whatsapp-business-icon.png" alt="WhatsApp Business">
+                    </button>
                   </div>
                 </div>
               </div>
             </div>
-          
-            <!-- Submit Button for Desktop -->
-            <div class="col-12 d-none d-md-block gradientBox">
-              <button class="Gradientbutton d-md-table mx-auto" id="desktopBtn" type="submit">
-                 Submit Form
-                      <span class="gradient-container">
-                        <span class="gradient"></span>
-                      </span>
-              </button>
-            </div>
+          </div>
+          <!-- Submit Button for Desktop -->
+          <div class="col-12 d-none d-md-block gradientBox">
+            <button class="Gradientbutton d-md-table mx-auto" id="desktopBtn" type="submit"> Submit Form <span class="gradient-container">
+                <span class="gradient"></span>
+              </span>
+            </button>
+          </div>
         </form>
-
       </div>
-<div class="col-lg-5 px-4 ps-xl-5">
-  <h3 class="therdH">Working Hours</h3>
-  <ul class="ulSplit">
-    <li><span class="tagName">Monday-Friday</span> <span>09:00 – 18:00</span></li>
-    <li><span class="tagName">Sunday</span> <span>Close</span></li>
-  </ul>
-  <hr>
-</div>
-
+      <div class="col-lg-5 px-4 ps-xl-5">
+        <h3 class="therdH">Working Hours</h3>
+        <ul class="ulSplit">
+          <li>
+            <span class="tagName">Monday-Friday</span>
+            <span>09:00 – 18:00</span>
+          </li>
+          <li>
+            <span class="tagName">Sunday</span>
+            <span>Close</span>
+          </li>
+        </ul>
+        <hr>
+        <div class="row card_Row">
+          <div class="col-12">
+            <div class="WhyChooseCards">
+              <div class="iconWhyChoose">
+                <img loading="lazy" src="image/Phone.webp" alt="Hotline Number">
+              </div>
+              <div class="WhyChooseCardInfo">
+                <h3 class="fifthH">Hotline Number</h3>
+                <p>+91 000 000 0000</p>
+              </div>
+              <a class="absAchor" href="tel:+916354710794"></a>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="WhyChooseCards">
+              <div class="iconWhyChoose">
+                <img loading="lazy" src="image/Location.webp" alt="Office Address">
+              </div>
+              <div class="WhyChooseCardInfo">
+                <h3 class="fifthH">Office Address</h3>
+                <address>
+TF-A1-22, Akshar Pavilion Mall, Near Priya Cinema,Vasna Bhyali Main Road, Vadodara,391410
+                </address>
+              </div>
+              <a target="_blank" class="absAchor" href="https://maps.app.goo.gl/EMtQmUV8unVQYXWE8"></a>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="WhyChooseCards">
+              <div class="iconWhyChoose">
+                <img loading="lazy" src="image/email.webp" alt="Email Us">
+              </div>
+              <div class="WhyChooseCardInfo">
+                <h3 class="fifthH">Email Us</h3>
+                <p>your@Email.com</p>
+              </div>
+              <a class="absAchor" href="#"></a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
+
+<section class="mapSection">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14765.784848312966!2d73.1300405!3d22.2989582!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc974e5d47ae3%3A0x58379e994d22cb3b!2sShriii%20Tracking%20Solution!5e0!3m2!1sen!2sin!4v1751867763827!5m2!1sen!2sin" width="100%" height="Auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
 
     <div id="fabContainer">
 

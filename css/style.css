@@ -1189,3 +1189,112 @@ textarea.form-control{
   margin-top: 16px;
 }
 
+
+.contactSection .iconWhyChoose {
+    width: 50px;
+    height: 50px;
+    flex: 0 0 auto;
+}
+
+.contactSection .WhyChooseCardInfo p {
+    font-size: 16px;
+}
+
+.contactSection .card_Row{
+  row-gap: 40px;
+  margin-top: 20px;
+}
+
+.contactSection .container>.row{
+row-gap: 30px;
+}
+
+.contactSection .WhyChooseCardInfo address{
+  margin-bottom: 0;
+}
+
+.contactSection .WhyChooseCards{
+  position: relative;
+}
+
+.absAchor{
+  position: absolute;
+  inset: 0;
+}
+
+.mapSection iframe{
+  margin-bottom: -8px;
+  height: 650px;
+}
+
+
+/* gallery categories start */
+
+.grid-item {
+   aspect-ratio: 2/1;
+   object-fit: cover;
+   margin-bottom: 0;
+  }
+
+  .grid-sizer,.grid-item{
+    width: 50% ;                                                                              ;
+  }
+
+.gutter-sizer { 
+  width: 0;
+}
+
+.grid-item--height2 {
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+
+/* gallery categories end */
+
+/* event intro section start */
+.WhyChoose.EventPage{
+padding-top: 148.25px;
+}
+/* event intro section end */
+
+
+/* event offer and services start */
+.spanStyle.CenterSubHead{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+.PicWrap{
+  position: relative;
+}
+
+.eventOfferAndServices .tabPanWrapper {
+width: unset;
+max-width: 800px;
+}
+.eventOfferAndServices .card_Row{
+  margin-top: 0;
+}
+/* event offer and services end */
+
+
+
+.accordion-button {
+  color: var(--Grey);
+  background-color: #333333;
+}
+.accordion-button::after {
+    background-image: url('../image/Faq_DownArrow.svg');
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url('../image/Faq_DownArrowActive.svg');
+}
+
+.accordion-button:not(.collapsed) {
+    color: #ffffff;
+    background-color: #141414;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
