@@ -61,7 +61,7 @@ function loadHeaderFooter(callback) {
                     <a href="contact.html" class="navLink">Contact</a>
                   </li>
                      <li class="navLi extraBtn">
-                     <a class="Gradientbutton" href="">
+                     <a class="Gradientbutton" href="contact.html">
                        book Your Event
                       <span class="gradient-container">
                         <span class="gradient"></span>
@@ -91,7 +91,7 @@ function loadHeaderFooter(callback) {
             <div class="col-lg-auto col-sm-6 mb-4 mb-md-0 FooterAbout">
             
               <p>
-              We are passionate about bringing people together through extraordinary events. Whether it's a corporate gathering, a wedding celebration, or a social experience, our team ensures every detail is thoughtfully designed and flawlessly executed. Let’s create something unforgettable together.
+              We create unforgettable experiences that bring people together. From corporate events to weddings and social gatherings, we plan every detail with care and creativity. Let’s make your next event extraordinary.
               </p>
              
             </div>
@@ -107,16 +107,8 @@ function loadHeaderFooter(callback) {
                   <i class="fa-solid fa-circle-chevron-right"></i>About Us</a>
                   </li>
                 <li>
-                <a class="footerLinks" href="#">
-                    <i class="fa-solid fa-circle-chevron-right"></i>link</a>
-                </li>
-                <li>
-                <a class="footerLinks" href="#">
-                    <i class="fa-solid fa-circle-chevron-right"></i>link</a>
-                </li>
-                <li>
-                <a class="footerLinks" href="#">
-                    <i class="fa-solid fa-circle-chevron-right"></i>link</a>
+                <a class="footerLinks" href="gallery.html">
+                    <i class="fa-solid fa-circle-chevron-right"></i>Gallery</a>
                 </li>
                 <li>
                 <a class="footerLinks" href="contact.html">
@@ -127,12 +119,11 @@ function loadHeaderFooter(callback) {
               <div class="col-sm-6 col-lg-auto mb-4 mb-md-0 exploreLinks1">
               <h5 class="fourthH ">Explore Link</h5>
               <ul>   
-              <li><a href="#" class="footerLinks"><i class="fa-solid fa-circle-chevron-right"></i> link HERE</a></li> 
-              <li><a href="#" class="footerLinks"><i class="fa-solid fa-circle-chevron-right"></i> link HERE</a></li> 
-              <li><a href="#" class="footerLinks"><i class="fa-solid fa-circle-chevron-right"></i> link HERE</a></li> 
-              <li><a href="#" class="footerLinks"><i class="fa-solid fa-circle-chevron-right"></i> link HERE</a></li> 
-              <li><a href="#" class="footerLinks"><i class="fa-solid fa-circle-chevron-right"></i> link HERE</a></li> 
-                 <li><a href="#" class="footerLinks"><i class="fa-solid fa-circle-chevron-right"></i> link HERE</a></li> 
+              <li><a href="weddingAndReception.html" class="footerLinks"><i class="fa-solid fa-circle-chevron-right"></i> Wedding & Reception</a></li> 
+              <li><a href="babyShower.html" class="footerLinks"><i class="fa-solid fa-circle-chevron-right"></i> Baby Shower</a></li> 
+              <li><a href="DJ_AndDance.html" class="footerLinks"><i class="fa-solid fa-circle-chevron-right"></i> DJ & Dance</a></li> 
+              <li><a href="corporateEvent.html" class="footerLinks"><i class="fa-solid fa-circle-chevron-right"></i> Corporate event</a></li> 
+
                  </ul>
                  </div>
                  <div class="col-md-6 col-lg-auto mb-4 mb-md-0">
@@ -202,7 +193,7 @@ Main Road, Vadodara,391410
     <!-- Call FAB icon -->
     <div class="Call-fab-container">
       <a rel="noopener" target="_blank" href="tel:number">
-        <img style="height: 60px; width: 60px" src="image/phone-call.png" alt="phone icon" />
+        <img loading="lazy" style="height: 60px; width: 60px" src="image/phone-call.png" alt="phone icon" />
       </a>
     </div>`// Keep your current Fab HTML here
   callback?.();
